@@ -1,0 +1,92 @@
+.titleImage {
+    position: relative;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.titleCenter1 {
+    position: absolute;
+    font-family: "modena", "Lucida Handwriting", cursive;
+    text-align: center;
+    font-size: 6em;
+    color: rgba(145, 7, 7);
+    top: 40px;
+    left: 40px;
+}
+
+.titleCenter2 {
+    position: absolute;
+    font-family: "modena", "Lucida Handwriting", cursive;
+    text-align: center;
+    font-size: 6em;
+    color: rgba(145, 7, 7);
+    top: 140px;
+    left: 40px;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.navGrid>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 16px;
+}
+
+.attractionsImage {
+    position: relative;
+    text-align: left;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+}
+
+.footer>li {
+    float: left;
+}
+
+.footerButton {
+    display: block;
+    color: grey;
+    font-size: 1em;
+    text-align: center;
+    padding: 4px 50px;
+    text-decoration: none;
+}
